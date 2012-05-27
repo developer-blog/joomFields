@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="attribs">
+        <fieldset name="intranetCustom" label="Module">
+            <field
+                    name="modulepos"
+                    type="radio"
+                    label="Position"
+                    description="Module position">
+                <option	value="0">Liten lista till höger om innehållet</option>
+                <option	value="1">Stor lista under innehållet</option>
+            </field>
+        </fieldset>
+    </fields>
+</form>

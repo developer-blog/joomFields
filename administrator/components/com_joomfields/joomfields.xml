@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+    <name>com_joomfields</name>
+    <author>Developer-blog</author>
+    <creationDate>2012</creationDate>
+    <copyright>Developer-blog</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorEmail>hello@developer-blog.com</authorEmail>
+    <authorUrl>www.developer-blog.com</authorUrl>
+    <version>0.2 Beta</version>
+    <description>Joomla component & plugin that makes it easy to create custom fields to your articles.</description>
+    <administration>
+        <files folder="admin">
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>joomfields.php</filename>
+            <folder>controllers</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+        </files>
+        <menu>Joomfields</menu>
+    </administration>
+</extension>
+
